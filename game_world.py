@@ -1,6 +1,7 @@
 #world[0] : background layer
 #world[1] : default layer
-world = [[], []]
+#world[2] : foreground layer
+world = [[], [], []]
 
 def add_object(o, depth = 1):
     world[depth].append(o)
